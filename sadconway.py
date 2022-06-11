@@ -22,7 +22,8 @@ def iter(st, n, pr=True) :
         re = res
         res = cnw(res)
         if pr :
-            print(ln(int(res))/ln(int(re)))
+            print("C_{n} = ", res)
+            print("ln(C_{n})/ln(C_{n-1})", ln(int(res))/ln(int(re)))
     return res
 
 
